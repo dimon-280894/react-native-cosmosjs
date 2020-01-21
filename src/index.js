@@ -10,7 +10,7 @@ const bip39 = require('bip39');
 const bip32 = require('bip32');
 const bech32 = require('bech32');
 const secp256k1 = require('secp256k1');
-const crypto = require('crypto');
+const crypto = require('react-native-crypto');
 const bitcoinjs = require('bitcoinjs-lib');
 
 let Cosmos = function(url, chainId) {
